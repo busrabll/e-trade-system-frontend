@@ -256,11 +256,11 @@ a {
   overflow: hidden;
 }
 
-.product-card .product-image{
+.product-card .product-image {
   height: 270px;
 }
 
-.product-card .product-image img{
+.product-card .product-image img {
   object-fit: contain;
   transition: 0.3s;
 }
@@ -313,7 +313,7 @@ a {
 
 /*Special Product*/
 
-.special-product-card{
+.special-product-card {
   padding: 10px;
   border-radius: 10px;
   background-color: white;
@@ -322,3 +322,53 @@ a {
 /*Special Product ends here*/
 
 /*Home Page Ends*/
+
+/*Our Store*/
+
+.breadcrumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+
+.filter-title {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 20px;
+}
+
+.filter-card ul,
+.filter-card .form-check-label {
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 30px;
+  color: var(--color-777777);
+  cursor: pointer;
+}
+
+.filter-card .form-check-input:focus{
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 25);
+}
+
+.filter-card .form-check-input:checked{
+  background-color: var(--color-febd69);
+  border-color: var(--color-febd69);
+}
+
+.sub-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 15px;
+}
+
+/*Our Store Ends Here*/
