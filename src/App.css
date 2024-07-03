@@ -334,7 +334,7 @@ a {
 .filter-card {
   background-color: white;
   border-radius: 10px;
-  padding: 10px 15px;
+  padding: 15px 15px 25px;
 }
 
 .filter-title {
@@ -354,12 +354,12 @@ a {
   cursor: pointer;
 }
 
-.filter-card .form-check-input:focus{
+.filter-card .form-check-input:focus {
   box-shadow: none;
   border-color: rgba(0, 0, 0, 25);
 }
 
-.filter-card .form-check-input:checked{
+.filter-card .form-check-input:checked {
   background-color: var(--color-febd69);
   border-color: var(--color-febd69);
 }
@@ -369,6 +369,56 @@ a {
   font-weight: 600;
   color: var(--color-1c1c1b);
   margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+.colors {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.colors li {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.product-tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.product-tags .badge {
+  flex: 1 1 auto;
+  white-space: nowrap;
+}
+
+.random-products h5{
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.random-products:first-child{
+  border-bottom: 1px solid var(--color-ededed);
+}
+
+.filter-sort-grid{
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.grid img{
+  width: 35px;
+  height: 35px;
+  background-color: #f2f2f2;
+  padding: 8px;
+  border-radius: 3px;
 }
 
 /*Our Store Ends Here*/
