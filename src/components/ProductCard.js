@@ -9,8 +9,8 @@ const ProductCard = (props) => {
     return (
         <>
             <div
-                className={`${location.pathname == "/store" ? `col-${grid}` : "col-3"}`}>
-                <Link className="product-card position-relative">
+                className={`${location.pathname == "/store" ? `gr-${grid}` : "col-3"}`}>
+                <Link to=":id" className="product-card position-relative">
                     <div className="wishlist-icon position-absolute">
                         <Link><img src="images/wish.png" alt="wishlist" /></Link>
                     </div>
@@ -24,7 +24,8 @@ const ProductCard = (props) => {
                             VO4284S
                         </h5>
                         <ReactStars count={5} size={24} value='3' edit={false} activeColor="ffd700" />
-                        <p class="price">$100</p>
+                        <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}></p>
+                        <p className="price">$100</p>
                     </div>
                     <div className="action-bar position-absolute">
                         <div className='d-flex flex-column gap-15'>
@@ -42,7 +43,7 @@ const ProductCard = (props) => {
                 </Link>
             </div>
             <div
-                className={`${location.pathname == "/store" ? `col-${grid}` : "col-3"}`}>
+                className={`${location.pathname == "/store" ? `gr-${grid}` : "col-3"}`}>
                 <Link className="product-card position-relative">
                     <div className="wishlist-icon position-absolute">
                         <Link><img src="images/wish.png" alt="wishlist" /></Link>
