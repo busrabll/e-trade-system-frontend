@@ -26,7 +26,7 @@ const Header = () => {
                 <div className="container-xxl">
                     <div className="row align-item-center">
                         <div className="col-2">
-                            <h2><Link className='text-white'>Dev Corner</Link></h2>
+                            <h2><Link className='text-white'>ARBAL</Link></h2>
                         </div>
                         <div className="col-5">
                             <div className="input-group">
@@ -59,9 +59,9 @@ const Header = () => {
                                     </Link>
                                 </div>
                                 <div>
-                                    <Link 
-                                    to='/login'
-                                    className='d-flex align-items-center gap-10 text-white'>
+                                    <Link
+                                        to='/login'
+                                        className='d-flex align-items-center gap-10 text-white'>
                                         <img src="images/user.png" alt="user" />
                                         <p className='mb-0'>
                                             Log in <br /> My Account
@@ -69,9 +69,9 @@ const Header = () => {
                                     </Link>
                                 </div>
                                 <div>
-                                    <Link 
-                                    to='/cart'
-                                    className='d-flex align-items-center gap-10 text-white'>
+                                    <Link
+                                        to='/cart'
+                                        className='d-flex align-items-center gap-10 text-white'>
                                         <img src="images/cart.png" alt="cart" />
                                         <div className='d-flex flex-column gap-10'>
                                             <span className="badge bg-white text-dark">0</span>
@@ -92,7 +92,6 @@ const Header = () => {
                                 <div>
                                     <div className="dropdown">
                                         <button className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                            <img src="images/menu.png" alt="" />
                                             <span className='me-5 d-inline-block'>Shop Categories</span>
                                         </button>
                                         <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
